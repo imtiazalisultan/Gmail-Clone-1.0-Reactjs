@@ -1,0 +1,157 @@
+.emailList{
+    display: flex;
+    flex-direction: column;
+}
+.emailList__settings{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.emailList__settings svg{
+    font-size: 18px;
+}
+.emailList_settingRight{
+    display: flex;
+    align-items: center;
+}
+.emailList_settingRight p{
+    font-size: 13px;
+}
+.emailType{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.emailType > .emailType__option {
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+.emailType > .emailType__option svg{
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+}
+.emailType > .emailType__option p{
+    font-size: 15px;
+   
+}
+.emailType > .emailType__option:hover{
+    background-color: whitesmoke;
+}
+.emailType__option--active {
+    border-bottom: 3px solid #d93025 !important;
+}
+.emailType__option--active p,
+.emailType__option--active svg{
+    color: #d93025 !important;
+    font-weight: bold;
+}
+
+.emailBody{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 10px;
+    height: 40px;
+
+}
+.emailBody:hover{
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+}
+.emailBody .emailBody__left{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    flex: 20%;
+}
+.emailBody .emailBody__left svg{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+}
+.emailBody .emailBody__left h4{
+    font-size: 14px;
+}
+   
+.emailBody .emailBody__middle{
+    display: flex;
+    align-items: center;
+    flex: 90%;
+}
+.emailBody__middle .emailBody__middle__msg{
+    display: flex;
+    width: 90%;
+}
+.emailBody .emailBody__middle p{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 20px; 
+    max-width: 700px;
+}
+.emailBody .emailBody__right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+    justify-content:flex-end ;
+}
+.emailBody .emailBody__right p{
+    font-size: 12px;
+}
+
+/* Now css for EmailDetails.js File */
+.email__details_message{
+    box-shadow: 0px 0px 3px #ccc;
+    height: 100%;
+}
+.email__details__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 15px;
+}
+.email_details_header_left{
+    display: flex;
+    align-items: center;
+}
+ .email__details__header svg{
+    font-size: 18px;
+}
+.email__details__middle_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.email_details_middle_header_left{
+    display: flex;
+    align-items: center;
+    
+}
+.email_details_middle_header_right{
+    display: flex;
+    align-items: center;
+}
+.email__details__middle_header svg{
+    font-size: 18px;
+}
+.email_details_middle_header_left h4{
+   margin-right: 10px; 
+}
+.email_details_middle_header_left p{
+    font-size: 14px;
+}
+.email__details_body {
+    display: flex;
+    padding: 0px 15px;
+}
