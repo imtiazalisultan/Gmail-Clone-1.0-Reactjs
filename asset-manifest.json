@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gmail-Clone-1.0-Reactjs/static/css/main.1440ea4f.css",
+    "main.js": "/Gmail-Clone-1.0-Reactjs/static/js/main.99a4c3c2.js",
+    "index.html": "/Gmail-Clone-1.0-Reactjs/index.html",
+    "main.1440ea4f.css.map": "/Gmail-Clone-1.0-Reactjs/static/css/main.1440ea4f.css.map",
+    "main.99a4c3c2.js.map": "/Gmail-Clone-1.0-Reactjs/static/js/main.99a4c3c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1440ea4f.css",
+    "static/js/main.99a4c3c2.js"
+  ]
+}
