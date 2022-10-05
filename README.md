@@ -1,5 +1,7 @@
 # Getting Started with Create React App and Redux
 
+Netlify Link: https://gmail-clone-7861.netlify.app/
+
 Your site is live at https://imtiazalisultan.github.io/Gmail-Clone-1.0-Reactjs/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
